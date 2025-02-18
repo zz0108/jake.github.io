@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>履歷</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        .header {
+            display: flex;
+            align-items: center; /* 垂直置中 */
+            gap: 15px; /* 調整圖片與文字的間距 */
+        }
+        
+        .profile-pic {
+            width: 80px; /* 設定適當的寬度 */
+            height: 80px;
+            border-radius: 50%; /* 讓頭像變成圓形 */
+            object-fit: cover; /* 確保圖片適應範圍 */
+        }
+
+        .contact-info,
+        .skills,
+        .experience,
+        .education {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .job-title {
+            font-weight: bold;
+        }
+
+        .time-period {
+            font-style: italic;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="大頭貼.png" alt="大頭貼" class="profile-pic">
+            <h1>蘇羿逢</h1>
+        </div>
+        <p>從寫程式中獲得到快樂，更喜歡以程式創造價值！
+            ⼤學畢業後，我在⻘群科技股份有限公司負責軟件開發⼀職，主要⼯作為ERP系統的後端開發，包含邏輯
+            處理、WebAPI撰寫，以及gRpc實施，⽬的為優化並提升微服務間之溝通效率。此外，⾃⾝亦負責整合兩
+            個第三⽅平台，提升系統之互聯互通能⼒。
+            服兵役後，輾轉⾄統智科技擔任系統⼯程師⼀職，主要負責⾼流量和分散式系統處理，同時，亦參與公
+            司多個核⼼開發專案。從此份⼯作經驗，除提升⾃⾝於⼤規模系統設計之能⼒，同時也累積⾃⾝於團隊內
+            分⼯與協調經驗。
+            近期，於好會⾶網路股份有限公司擔任⼯程師⼀職，主要負責開發⾺來⻄亞跨境電商平台，涵蓋線上與
+            實體店，以及供應商後台管理、物流管理等模組。
+            ⾃⾝對於⼯作的態度，不僅於技術實現與任務執⾏，也包括創新⽅案的提出和實⾏；⾃⾝平時興趣為研
+            讀各類程式及軟體⼯程相關書籍，持續接觸最新相關資訊，以維持新穎觀念及邏輯，助益我於團隊合作間
+            之新穎、創意⽅案提出；我積極學習並持續提升⾃⼰能⼒，以滿⾜貴司技術需求、達成要求。</p>
+
+        <div class="contact-info">
+            <p>📞 0966-533-199</p>
+            <p>📧 nn12572312@gmail.com</p>
+            <p>🔗 <a href="https://github.com/zz0108" target="_blank">GitHub</a></p>
+        </div>
+
+        <div class="skills">
+            <div class="section-title">技能</div>
+            <p><strong>程式語言：</strong> C#, Python</p>
+            <p><strong>前端：</strong> HTML/CSS, Bootstrap, JavaScript, jQuery, Angular, TypeScript</p>
+            <p><strong>網頁程式設計：</strong> ASP.NET MVC, .NET Core, .NET</p>
+            <p><strong>開發工具：</strong> Visual Studio, VS Code, PyCharm</p>
+            <p><strong>雲端平台：</strong> AWS, GCP</p>
+            <p><strong>版控與團隊開發：</strong> GitHub, Gitea</p>
+            <p><strong>資料庫：</strong> MSSQL, DynamoDB, Redis, PostgreSQL</p>
+        </div>
+
+        <div class="experience">
+            <div class="section-title">經歷</div>
+            <p class="job-title">接案 - 古物環境監控系統 (2024/01 - 2024/12)</p>
+            <ul>
+                <li>
+                    <p>古物環境監控系統</p>
+                    <ul>
+                        <li>
+                            負責整合溫濕度計測裝置與古物網平台，實現古物保護區域的環境監控。
+                        </li>
+                        <li>
+                            開發實時數據同步功能，確保溫溼度數據即時更新⾄古物網，⽀持古物保護⼯作的數據驅動。
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>台煙業專案優化</p>
+                    <ul>
+                        <li>
+                            協助將現有系統轉移到負載均衡架構，並且支援水平擴展，提⾼系統的容錯率和可靠性。
+                        </li>
+                        <li>
+                            負責新功能開發和既有程式的性能優化，有效提升系統整體性能和⽤戶體驗。
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>AI 標案⽣成專案</p>
+                    <ul>
+                        <li>
+                            開發⼀個允許⽤戶上傳檔案並⾃動⽣成標案初稿的AI應⽤。
+                        </li>
+                        <li>
+                            整合LangChain 串接 GPT API 和 Gemini API，實現AI潤飾功能，使⽤者可根據AI建議進⾏修改和完善，最
+終⽣成⼀份專業的標案⽂件。
+
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <p class="job-title">好會飛網路股份有限公司 - 軟體工程師 (2022/06 - 2024/01)</p>
+            <ul>
+                <li>項⽬管理與開發： 負責多項重要專案，包括線上電商活動（如簽到活動）、OMO線下實體店訂單整合、實體店
+                    兌換中⼼（幣兌換與折扣券兌換）、以及店員導購系統的開發與實施。
+                </li>
+                <li>跨平台整合與數據處理： 實現了多平台商品標籤爬取與AI標籤應⽤，並將AI⼯程師的分析結果視覺化，提供給
+                    供應商後台作為數據⽀援，增強決策制定效率</li>
+                <li>物流與倉儲系統開發： 參與公司物流平台的開發，整合第三⽅ERP系統，設計訂單與庫存API接⼝，並實現庫存
+                    控制與狀態同步。</li>
+                <li>商品與⽤戶管理： 負責商品的上下架管理，同步⾄第三⽅通路與本公司電商平台。設計並實施⽤戶權限管理功
+                    能，確保系統安全並優化⽤戶體驗。
+                </li>
+                <li>
+                    ToB商流系統開發：使⽤Blazor開發專為⼩B賣家與直播主設計的選品網站，提供從商品展⽰到訂單處理的全流
+                    程服務，包括跨境交易的匯率設定等功能。
+                </li>
+            </ul>
+
+            <p class="job-title">統智科技 - 系統工程師 (2021/06 - 2022/05)</p>
+            <ul>
+                <li>
+                    <p>部分功能平台化和⼩部分排程功能開發</p>
+                    <ul>
+                        <li>
+                            使⽤ .NET 5.0 開發微服務功能
+                        </li>
+                        <li>
+                            採⽤ DynamoDB 的 low level API 進⾏資料存取
+                        </li>
+                        <li>
+                            與現有系統通信主要透過 API 和 Amazon S3，排程間以檔案形式進⾏溝通。
+                        </li>
+                        <li>
+                            容器化應⽤並部署⾄ AWS ECS 以增強部署效率和擴展性
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>
+                        既有後端及前端功能開發
+                    </p>
+                    <ul>
+                        <li>
+                            負責 ASP.NET 應⽤程式後端 API 的開發和維護。
+                        </li>
+                        <li>
+                            使⽤ Angular 開發和維護後台管理前端。
+                        </li>
+                        <li>
+                            實施分散式架構，並使⽤ AWS SQS 作為應⽤間的通訊機制。
+                        </li>
+                        <li>
+                            使⽤Redis作為交易分散式鎖、使⽤Memory Cache 作為資料快取。
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>資料庫管理和效能優化</p>
+                    <ul>
+                        <li>管理並優化資料庫操作，有效處理達億級數據量。</li>
+                        <li>成功將某個關鍵排程的執⾏效率提升2倍，解決了因效能不佳所帶來的問題。</li>
+                    </ul>
+                </li>
+                <li>
+                    <p>⽤戶和交付</p>
+                    <ul>
+                        <li>
+                            服務於達1400萬⽤戶的⼤型專案。
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <p class="job-title">(兼職)⻘群科技股份有限公司 - 工程師 (2021/06 - 2022/05)</p>
+            <ul>
+                <li>
+                    <p>
+                        ERP系統開發與第三⽅平台整合
+                    </p>
+                    <ul>
+                        <li>
+                            使⽤ .NET Core 開發ERP系統的核⼼後端功能。
+                        </li>
+                        <li>
+                            負責商業邏輯處理、WebAPI的撰寫和維護。
+                        </li>
+                        <li>
+                            實施 gRpc 通訊技術，促進微服務之間的⾼效溝通。
+                        </li>
+                        <li>
+                            成功整合兩個第三⽅平台，擴展系統功能和服務能⼒。
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>
+                        團隊合作與技術洞察
+                    </p>
+                    <ul>
+                        <li>
+                            與前端開發者和項⽬經理密切合作，推動項⽬進度並確保⾼品質的產品交付。
+                        </li>
+                        <li>
+                            透過跨功能團隊合作，加深對前後端分離架構的理解。
+                        </li>
+                        <li>
+                            學習並應⽤ERP系統核⼼概念，以⽀持業務流程的⾃動化和優化。
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="education">
+            <div class="section-title">學歷</div>
+            <p class="job-title">中華大學 - 資訊工程學系 (2016/09 - 2020/07)</p>
+            <p>
+                在中華⼤學資訊⼯程學系的學習期間，我專注於掌握程式設計的核⼼基礎，深⼊學習資料結構、演算法等關鍵學科。
+透過積極參與各種編程實踐，不斷強化⾃⼰的技術能⼒。為擴展我的學術視野，我還選修了跨系的⾦融相關課程，這
+些課程讓我獲得了寶貴的跨學科知識，為未來可能的多領域應⽤奠定了基礎。
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
